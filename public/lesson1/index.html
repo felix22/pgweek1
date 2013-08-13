@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<!--[if IE 8]> 				 <html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+
+<head>
+	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Student portal</title>
+
+  
+  <link rel="stylesheet" href="../css/foundation.css">
+  <link rel="stylesheet" type="text/css" href="../css/custom.css">
+
+  <script src="js/vendor/custom.modernizr.js"></script>
+
+</head>
+<body>
+<div class="header" >
+<div class="heading" >
+
+	<div class="logo" ><h1>Path Guide</h1><p> Student Portal</p></div>
+	<div class="login">
+          <ul>
+              <!--<li><a class="whitered" href="#work">Sign Out</a></li>-->
+          </ul>
+          </div>
+
+</div>
+</div>
+
+<div class="navv" >
+		<h3>Week 1</h3>
+	<div class="nav2">	<dl class="sub-nav">
+  <dt></dt>
+  <dd class="active"><a href="#">Week 1</a></dd>
+  <dd class=""><a href="#">Week 2 (Coming Soon)</a></dd>
+
+</dl></div>
+<hr />
+<ul class="breadcrumbs">
+   <li ><a  href="/">Introduction</a></li>
+  <li class="current"><a  href="/lesson1">Lesson 1</a></li>
+  <li ><a href="/lesson2">Lesson 2</a></li>
+  <li ><a href="/lesson3">Lesson 3</a></li>
+  <li > <a href="/lesson4">Lesson 4</a></li>
+  <li class="unavailable" ><a href="#">Final Project</a></li>
+</ul>
+
+</div>
+
+<div class="container">
+
+	
+		
+	
+	<div class="main-body">
+  	<h2 class="">Introduction to Html</h2>
+    <br/>
+      <h5 class="">What is HTML</h5>
+      <p>Html is a Markup Language (<strong>HTML</strong> = <strong>H</strong>yper <strong>T</strong>ext <strong>M</strong>arkup <strong>L</strong>anguage) used to write web pages. It
+      tells the browser what kind of content is on the page and describes how the browser should display
+      this content. Every website online is written in HTML, even this one.</p>
+
+      <h5 class="">HTML TAGS</h5>
+       <p>Html tags are the “elements” of Html that tell the browser how to display certain parts of the page</p>
+       <p><pre style="background:#000;color:#f8f8f8">
+
+       <span style="color:#89bdff">&lt;<span style="color:#89bdff">h1</span>></span> This is a Heading<span style="color:#89bdff">&lt;/<span style="color:#89bdff">h1</span>></span>
+          </pre></p>
+      <p>So for example, you can tell the browser that the text “This is a Heading” is a heading by wrapping
+it around the heading tags <span style="color:#89bdff">&lt;<span style="color:#89bdff">h1</span>></span> and <span style="color:#89bdff">&lt;/<span style="color:#89bdff">h1</span>></span></p>
+
+		
+    <p><span style="color:#89bdff">&lt;<span style="color:#89bdff">h1</span>></span> is the “Opening Tag” that you must put at the beginning of the text you want to describe,
+    while <span style="color:#89bdff">&lt;/<span style="color:#89bdff">h1</span>></span> is the “Closing Tag” that you put at the end.</p>
+
+    <p>Other examples of html tags include <span style="color:#89bdff">&lt;<span style="color:#89bdff">h2</span>></span>...<span style="color:#89bdff">&lt;/<span style="color:#89bdff">h2</span>></span> for sub-headings (you can use h1 to h6 to
+specify headings of differing importance), <span style="color:#89bdff">&lt;<span style="color:#89bdff">p</span>></span>...<span style="color:#89bdff">&lt;/<span style="color:#89bdff">p</span>></span> for paragraphs and <span style="color:#e0c589">&lt;<span style="color:#e0c589">a</span>></span>...<span style="color:#e0c589">&lt;/<span style="color:#e0c589">a</span>></span> for links. I'll
+introduce you to more HTML tags pretty soon.</p>
+
+    <p>As you can probably already tell, all tags are structured this way (<span style="color:#89bdff">&lt;<span style="color:#89bdff">tag</span>></span>...<span style="color:#89bdff">&lt;/<span style="color:#89bdff">tag</span>></span>) except for special
+tags like <span style="color:#e0c589">&lt;<span style="color:#e0c589">br</span> /></span> which are self closing tags. <span style="color:#e0c589">&lt;<span style="color:#e0c589">br</span> /></span> is used to insert a single line break in your
+content. You'll learn more about self closing tags pretty soon.</p>
+
+
+
+
+
+  <h5>Attributes</h5>
+  <p>Atttributes give the browser more information about the html elements you are using to describe the
+content of your page. The attributes are positioned in the opening tag of your html element</p>
+    <p><pre style="background:#000;color:#f8f8f8">
+
+    <span style="color:#89bdff">&lt;<span style="color:#89bdff">tag</span> <span style="color:#89bdff">attribute</span>=“<span style="color:#89bdff">value</span>”></span>...<span style="color:#89bdff">&lt;<span style="color:#89bdff">tag</span>></span>
+    </pre></p>
+
+    <p>For example, the <span style="color:#e0c589">&lt;<span style="color:#e0c589">img</span> /></span> tag is a self-closing html tag used to tell the browser to display an image.
+But what image should the browser display? Where is it located?</p>
+
+    <p>You can use the (src=“” ) attribute to tell the browser where to find the image you want it to display. In the quotation marks, you put a link to the image you want the browser to display.</p>
+
+    <p><pre style="background:#000;color:#f8f8f8">
+
+    e.g. <span style="color:#e0c589">&lt;<span style="color:#e0c589">img</span> <span style="color:#e0c589">src</span>=“<span style="color:#e0c589">http:</span>//<span style="color:#e0c589">eofdreams</span>.<span style="color:#e0c589">com</span>/<span style="color:#e0c589">data</span>_images/<span style="color:#e0c589">dreams</span>/<span style="color:#e0c589">cat</span>/<span style="color:#e0c589">cat-</span>07.<span style="color:#e0c589">jpg</span>” /></span>
+    </pre></p>
+
+    <p>The <span style="color:#89bdff">&lt;<span style="color:#89bdff">a</span>>&lt;/<span style="color:#89bdff">a</span>></span> tag is another example of a tag that needs an attribute to work. The <span style="color:#89bdff">&lt;<span style="color:#89bdff">a</span>>&lt;/<span style="color:#89bdff">a</span>></span> is used to
+insert a hyperlink into the document but how does the browser know what to link to?</p>
+
+<p>You can use the (href=“” ) attribute to tell the browser what to link to.</p>
+
+    <p><pre style="background:#000;color:#f8f8f8">
+
+    e.g. <span style="color:#e0c589">&lt;<span style="color:#e0c589">a</span> <span style="color:#e0c589">href</span>=“<span style="color:#e0c589">http:</span>//<span style="color:#e0c589">www</span>.<span style="color:#e0c589">google</span>.<span style="color:#e0c589">com</span>” ></span>this is a link<span style="color:#e0c589">&lt;/<span style="color:#e0c589">a</span>></span>
+    </pre></p>
+
+    <h5>HTML Web Page Structure</h5>
+    <p>Every web page on the internet starts like this:</p>
+    <p><pre style="background:#000;color:#f8f8f8">
+
+    <span style="color:#89bdff">&lt;!<span style="color:#89bdff"><span style="color:#89bdff">DOCTYPE</span> html</span>></span>
+     <span style="color:#89bdff">&lt;<span style="color:#89bdff">html</span>></span>
+
+        <span style="color:#89bdff">&lt;<span style="color:#89bdff">head</span>></span>
+        <span style="color:#89bdff">&lt;/<span style="color:#89bdff">head</span>></span>
+
+        <span style="color:#89bdff">&lt;<span style="color:#89bdff">body</span>></span>
+        <span style="color:#89bdff">&lt;/<span style="color:#89bdff">body</span>></span>
+
+     <span style="color:#89bdff">&lt;/<span style="color:#89bdff">html</span>></span>
+
+     </pre></p>
+
+    <p>It must have all the html tags above to be valid web page.</p>
+    <p><strong><span style="color:#89bdff">&lt;!<span style="color:#89bdff"><span style="color:#89bdff">DOCTYPE</span> html</span>></span></strong> - this tells the web browser what version of html your web-page (I.e, an
+HTML document) is written in</p>
+    <p><strong><span style="color:#89bdff">&lt;<span style="color:#89bdff">html</span>>&lt;/<span style="color:#89bdff">html</span>></span></strong> - acts as a container for the html document, and all other html elements must be
+inside this one.</p>
+    <p><strong><span style="color:#89bdff">&lt;<span style="color:#89bdff">head</span>>&lt;/<span style="color:#89bdff">head</span>></span></strong> - contains all the tags that give the browser more information about the web-page
+and how it should behave. For example, it contains the <title></title> tags, which gives the browser
+a Title for the web-page that will appear on the title-bar (or tab) in the browser. It also contains meta
+tags (which further describe the contents of the page and how it should behave), script files, style
+sheets (css) and links to external stylesheets and script files.</p>
+    <p><strong><span style="color:#89bdff">&lt;<span style="color:#89bdff">body</span>>&lt;/<span style="color:#89bdff">body</span>></span></strong> - This is the part of the document that contains all the “content” of the web page.</p>
+
+
+
+
+
+
+
+
+
+
+
+    <p class=""><span class="floatright"><a href="/lesson2">Start Lesson 2</a></span></p>
+
+	</div>
+
+
+	
+</div>
+
+
+
+  <script>
+  document.write('<script src=' +
+  ('__proto__' in {} ? 'js/vendor/zepto' : 'js/vendor/jquery') +
+  '.js><\/script>')
+  </script>
+  
+  <script src="js/foundation.min.js"></script>
+  <!--
+  
+  <script src="js/foundation/foundation.js"></script>
+  
+  <script src="js/foundation/foundation.alerts.js"></script>
+  
+  <script src="js/foundation/foundation.clearing.js"></script>
+  
+  <script src="js/foundation/foundation.cookie.js"></script>
+  
+  <script src="js/foundation/foundation.dropdown.js"></script>
+  
+  <script src="js/foundation/foundation.forms.js"></script>
+  
+  <script src="js/foundation/foundation.joyride.js"></script>
+  
+  <script src="js/foundation/foundation.magellan.js"></script>
+  
+  <script src="js/foundation/foundation.orbit.js"></script>
+  
+  <script src="js/foundation/foundation.reveal.js"></script>
+  
+  <script src="js/foundation/foundation.section.js"></script>
+  
+  <script src="js/foundation/foundation.tooltips.js"></script>
+  
+  <script src="js/foundation/foundation.topbar.js"></script>
+  
+  <script src="js/foundation/foundation.interchange.js"></script>
+  
+  <script src="js/foundation/foundation.placeholder.js"></script>
+  
+  <script src="js/foundation/foundation.abide.js"></script>
+  
+  -->
+  
+  <script>
+    $(document).foundation();
+  </script>
+</body>
+</html>
