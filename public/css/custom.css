@@ -14,7 +14,9 @@
 	padding-left: 10px;
 	padding-right: 10px;
 }
-
+pre{
+	border-radius: 5px;
+}
 .logo{
 	float: left;
 
